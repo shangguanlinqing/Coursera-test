@@ -67,5 +67,6 @@ section > p{
 @media (max-width: 767px) {
 	.menu_column{
 		float: left;
+		clear: both;
 	}
 }
