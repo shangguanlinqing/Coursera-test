@@ -2,11 +2,13 @@
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
 	color: #ff10F0f0;
 	text-align: center;
+	margin: 30px;
 }
 
 #menu_subtitle_1{
@@ -22,16 +24,19 @@ h1{
 }
 
 section{
-	padding: 10px;
+	padding: 15px;
 }
 
 .menu_wrapper{
+	position: relative;
 	border: 1px solid black;
 	background: #f0f0f0;	
 }
 
 .menu_wrapper >  h5{
-	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 	width: 150px;
 	border: 1px solid black;
 	padding: 2px;
@@ -41,8 +46,10 @@ section{
 }
 
 .menu_wrapper >  p{
-	padding: 15px;	
-	clear: both;
+	position: relative;
+	top: 25px;
+	margin-bottom: 30px;	
+	padding: 10px;
 }
 
 @media (min-width: 992px) {
