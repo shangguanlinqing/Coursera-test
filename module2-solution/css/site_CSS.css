@@ -22,12 +22,15 @@ h1{
 }
 
 section{
-	margin: 10px;	
+	padding: 10px;
+}
+
+.menu_wrapper{
 	border: 1px solid black;
 	background: #f0f0f0;	
 }
 
-section > h5{
+.menu_wrapper >  h5{
 	float: right;
 	width: 150px;
 	border: 1px solid black;
@@ -37,7 +40,7 @@ section > h5{
 	font-size: 115%;
 }
 
-section > p{
+.menu_wrapper >  p{
 	padding: 15px;	
 	clear: both;
 }
