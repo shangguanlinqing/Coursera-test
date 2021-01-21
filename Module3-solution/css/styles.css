@@ -1,0 +1,17 @@
+.navbar-brand h1{
+	font-size: 1.3em;
+	padding: 0;
+	margin: 0;
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+.menu_description{
+	background-color: #f2f2f2;
+}
+
+.menu_description h3{
+	text-align: center;
+}
